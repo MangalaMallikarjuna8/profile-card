@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f8f8f8;
+}
+
+.container {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  border: 2px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  width: 300px;
+  text-align: center;
+}
+#img1 {
+  border-radius: 8px;
+  width: 300px;
+  height: 150px;
+}
+#img2 {
+  border-radius: 50px;
+  height: 80px;
+  width: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h4 {
+  font-family: darkmode-off, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+}
+h5 {
+  font: weight 4px;
+  font-style: normal;
+  font-family: Guanabara Sans Light;
+  font-weight: lighter;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#follow {
+  background-color: #0b6f29;
+  color: white;
+  width: 300px;
+  height: 40px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  border-color: none;
+  border: none;
+}
+
+.holder {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.iconHolder {
+  display: flex;
+  gap: 5px;
+  color: rgb(15, 14, 14);
+}
+
+.profile {
+  margin-top: -50px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.fllowerConatiner {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  border-top: 1px solid rgb(10, 10, 10);
+}
+
+.divider {
+  background-color: rgb(12, 12, 12);
+  height: 57px;
+  width: 1px;
+}
